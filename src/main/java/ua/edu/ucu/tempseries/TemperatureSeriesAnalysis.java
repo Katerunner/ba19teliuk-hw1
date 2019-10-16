@@ -11,13 +11,14 @@ public class TemperatureSeriesAnalysis {
     }
 
     public TemperatureSeriesAnalysis(double[] temperatureSeries) {
-        for (int i = 0; i < temperatureSeries.length; i++) {
-            if (temperatureSeries[i] < MIN_TEMPERATURE) {
+        int newLen = temperatureSeries.length;
+        double[] array = Arrays.copyOf(temperatureSeries, newLen);
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < MIN_TEMPERATURE) {
                 throw new InputMismatchException();
             }
         }
-        int newLen = temperatureSeries.length;
-        this.temperatureSeries = Arrays.copyOf(temperatureSeries, newLen);
+        this.temperatureSeries = Arrays.copyOf(array, newLen);
     }
 
     public void noElements() {
