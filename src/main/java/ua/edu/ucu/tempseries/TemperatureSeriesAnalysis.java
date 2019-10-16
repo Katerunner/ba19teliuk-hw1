@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 
 public class TemperatureSeriesAnalysis {
 
-    public double[] temperatureSeries;
+    private double[] temperatureSeries;
 
     public TemperatureSeriesAnalysis() {
         this.temperatureSeries = new double[1];
@@ -39,7 +39,8 @@ public class TemperatureSeriesAnalysis {
         noElements();
         double dev = 0;
         for (int i = 0; i < temperatureSeries.length; i++) {
-            dev += (temperatureSeries[i] - average())*(temperatureSeries[i] - average());
+            dev += (temperatureSeries[i] - average())*
+                (temperatureSeries[i] - average());
         }
         return Math.sqrt(dev / temperatureSeries.length);
     }
