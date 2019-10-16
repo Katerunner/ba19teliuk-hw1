@@ -39,7 +39,7 @@ public class TemperatureSeriesAnalysis {
         noElements();
         double dev = 0;
         for (int i = 0; i < temperatureSeries.length; i++) {
-            dev += Math.pow(temperatureSeries[i] - average(), 2);
+            dev += (temperatureSeries[i] - average())*(temperatureSeries[i] - average());
         }
         return Math.sqrt(dev / temperatureSeries.length);
     }
