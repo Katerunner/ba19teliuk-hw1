@@ -135,11 +135,11 @@ public class TemperatureSeriesAnalysis {
         int numberValues = 0;
         for (i = 0; i < temperatureSeries.length; i++) {
             newArr[i] = temperatureSeries[i];
-            numberValues ++;
+            numberValues++;
         }
         for (int j = 0; j < temps.length; j++) {
             newArr[i + j] = temps[j];
-            numberValues ++;
+            numberValues++;
         }
         this.temperatureSeries = newArr;
         return numberValues;
