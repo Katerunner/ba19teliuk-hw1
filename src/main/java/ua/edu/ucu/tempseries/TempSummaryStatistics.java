@@ -18,4 +18,5 @@ public class TempSummaryStatistics {
 
     public double getMaxTemp() {
         return maxTemp;
+    }
 }
