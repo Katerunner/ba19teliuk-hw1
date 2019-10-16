@@ -3,7 +3,7 @@ package ua.edu.ucu.tempseries;
 import java.util.InputMismatchException;
 
 public class TemperatureSeriesAnalysis {
-    public static final int MIN_TEMPERATURE=-273;
+    public static final int MIN_TEMPERATURE = -273;
     private double[] temperatureSeries;
 
     public TemperatureSeriesAnalysis() {
