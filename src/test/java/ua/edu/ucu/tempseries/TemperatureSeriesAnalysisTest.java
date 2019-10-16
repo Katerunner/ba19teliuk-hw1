@@ -100,7 +100,7 @@ public class TemperatureSeriesAnalysisTest {
     @Test
     public void testSummaryStatistics() {
         double expected = 107;
-        double actual = testSeries2.summaryStatistics().maxTemp;
+        double actual = testSeries2.summaryStatistics().getMaxTemp();
         assertEquals(expected, actual, 0);
     }
 
