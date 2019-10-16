@@ -19,4 +19,16 @@ public class TempSummaryStatistics {
     public double getMaxTemp() {
         return maxTemp;
     }
+
+    public double getAvgTemp() {
+        return avgTemp;
+    }
+
+    public double getDevTemp() {
+        return devTemp;
+    }
+
+    public double getMinTemp() {
+        return minTemp;
+    }
 }
