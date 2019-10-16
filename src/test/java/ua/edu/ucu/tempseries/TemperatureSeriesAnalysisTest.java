@@ -99,9 +99,20 @@ public class TemperatureSeriesAnalysisTest {
 
     @Test
     public void testSummaryStatistics() {
-        double expected = 107;
-        double actual = testSeries2.summaryStatistics().getMaxTemp();
-        assertEquals(expected, actual, 0);
+        double expected1 = 107;
+        double expected2 = -45.0;
+        double expected3 = 23.21857142857143;
+        double expected4 = 48.09261613315096;
+
+        double actual1 = testSeries2.summaryStatistics().getMaxTemp();
+        double actual2 = testSeries2.summaryStatistics().getMinTemp();
+        double actual3 = testSeries2.summaryStatistics().getAvgTemp();
+        double actual4 = testSeries2.summaryStatistics().getDevTemp();
+        assertEquals(expected1, actual1, 0);
+        assertEquals(expected2, actual2, 0);
+        assertEquals(expected3, actual3, 0);
+        assertEquals(expected4, actual4, 0);
+
     }
 
     @Test
