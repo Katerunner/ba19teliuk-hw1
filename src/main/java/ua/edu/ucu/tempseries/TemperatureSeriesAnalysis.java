@@ -12,7 +12,8 @@ public class TemperatureSeriesAnalysis {
 
     public TemperatureSeriesAnalysis(double[] temperatureSeries) {
         for (int i = 0; i < temperatureSeries.length; i++) {
-            if (temperatureSeries[i] < -273.0) {
+            int minTemp = -273;
+            if (temperatureSeries[i] < minTemp) {
                 throw new InputMismatchException();
             }
         }
@@ -39,8 +40,8 @@ public class TemperatureSeriesAnalysis {
         noElements();
         double dev = 0;
         for (int i = 0; i < temperatureSeries.length; i++) {
-            dev += (temperatureSeries[i] - average())*
-                (temperatureSeries[i] - average());
+            dev += (temperatureSeries[i] - average())
+                * (temperatureSeries[i] - average());
         }
         return Math.sqrt(dev / temperatureSeries.length);
     }
