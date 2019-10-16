@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02312231-450f-45c3-a09a-e46a77ff0abb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1SHb4BWk1nZnua71JgDR2LazVQA" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ua.edu.ucu.tempseries" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TemperatureSeriesAnalysisTest">
+    <configuration name="TemperatureSeriesAnalysisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemperatureSeries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.edu.ucu.tempseries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.edu.ucu.tempseries" />
+      <option name="MAIN_CLASS_NAME" value="ua.edu.ucu.tempseries.TemperatureSeriesAnalysisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureSeriesAnalysisTest.testFindTempClosestToValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemperatureSeries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.edu.ucu.tempseries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.edu.ucu.tempseries" />
+      <option name="MAIN_CLASS_NAME" value="ua.edu.ucu.tempseries.TemperatureSeriesAnalysisTest" />
+      <option name="METHOD_NAME" value="testFindTempClosestToValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureSeriesAnalysisTest.testFindTempsGreaterThen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemperatureSeries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.edu.ucu.tempseries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.edu.ucu.tempseries" />
+      <option name="MAIN_CLASS_NAME" value="ua.edu.ucu.tempseries.TemperatureSeriesAnalysisTest" />
+      <option name="METHOD_NAME" value="testFindTempsGreaterThen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureSeriesAnalysisTest.testFindTempsLessThen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemperatureSeries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.edu.ucu.tempseries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.edu.ucu.tempseries" />
+      <option name="MAIN_CLASS_NAME" value="ua.edu.ucu.tempseries.TemperatureSeriesAnalysisTest" />
+      <option name="METHOD_NAME" value="testFindTempsLessThen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureSeriesAnalysisTest.testSummaryStatistics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemperatureSeries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.edu.ucu.tempseries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.edu.ucu.tempseries" />
+      <option name="MAIN_CLASS_NAME" value="ua.edu.ucu.tempseries.TemperatureSeriesAnalysisTest" />
+      <option name="METHOD_NAME" value="testSummaryStatistics" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TemperatureSeriesAnalysisTest" />
+        <item itemvalue="JUnit.TemperatureSeriesAnalysisTest.testSummaryStatistics" />
+        <item itemvalue="JUnit.TemperatureSeriesAnalysisTest.testFindTempsGreaterThen" />
+        <item itemvalue="JUnit.TemperatureSeriesAnalysisTest.testFindTempClosestToValue" />
+        <item itemvalue="JUnit.TemperatureSeriesAnalysisTest.testFindTempsLessThen" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02312231-450f-45c3-a09a-e46a77ff0abb" name="Default Changelist" comment="" />
+      <created>1571223275881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571223275881</updated>
+    </task>
+    <servers />
+  </component>
+</project>
