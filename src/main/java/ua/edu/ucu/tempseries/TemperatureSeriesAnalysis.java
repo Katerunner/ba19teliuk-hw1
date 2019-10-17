@@ -3,9 +3,14 @@ import java.util.Arrays;
 import java.util.InputMismatchException;
 
 public class TemperatureSeriesAnalysis {
-    public static final int MIN_TEMPERATURE = -273;
+    private static final int MIN_TEMPERATURE = -273;
+
+    private void setTemperatureSeries(double[] temperatureSeries) {
+        this.temperatureSeries = temperatureSeries;
+    }
+
     private double[] temperatureSeries;
-    
+
     public TemperatureSeriesAnalysis(double[] tempSeries) {
         int newLen = tempSeries.length;
         double[] array = Arrays.copyOf(tempSeries, newLen);
@@ -14,8 +19,9 @@ public class TemperatureSeriesAnalysis {
                 throw new InputMismatchException();
             }
         }
-        temperatureSeries = Arrays.copyOf(array, newLen);
+        temperatureSeries = setTemperatureSeries(Arrays.copyOf(array, newLen);
     }
+
 
     public void noElements() {
         if (temperatureSeries.length <= 0) {
