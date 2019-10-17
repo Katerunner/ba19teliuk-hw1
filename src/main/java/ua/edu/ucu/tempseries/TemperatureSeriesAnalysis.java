@@ -5,11 +5,7 @@ import java.util.InputMismatchException;
 public class TemperatureSeriesAnalysis {
     public static final int MIN_TEMPERATURE = -273;
     private double[] temperatureSeries;
-
-    public TemperatureSeriesAnalysis() {
-        this.temperatureSeries = new double[1];
-    }
-
+    
     public TemperatureSeriesAnalysis(double[] temperatureSeries) {
         int newLen = temperatureSeries.length;
         double[] array = Arrays.copyOf(temperatureSeries, newLen);
