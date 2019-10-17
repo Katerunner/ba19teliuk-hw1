@@ -4,22 +4,14 @@ import java.util.InputMismatchException;
 
 public class TemperatureSeriesAnalysis {
     private static final int MIN_TEMPERATURE = -273;
-
-//     private void setTemperatureSeries(double[] temperatureSeries) {
-//         this.temperatureSeries = temperatureSeries;
-//     }
-
     private double[] temperatureSeries;
 
     public TemperatureSeriesAnalysis(double[] tempSeries) {
-//        int newLen = tempSeries.length;
-//        double[] array = Arrays.copyOf(tempSeries, newLen);
         for (int i = 0; i < tempSeries.length; i++) {
             if (tempSeries[i] < MIN_TEMPERATURE) {
                 throw new InputMismatchException();
             }
         }
-//        setTemperatureSeries(array);
         this.temperatureSeries = Arrays.copyOf(tempSeries, tempSeries.length);
     }
 
