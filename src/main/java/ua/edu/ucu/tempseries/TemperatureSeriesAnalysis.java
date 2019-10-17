@@ -14,7 +14,7 @@ public class TemperatureSeriesAnalysis {
                 throw new InputMismatchException();
             }
         }
-        temperatureSeries = array;
+        temperatureSeries = Arrays.copyOf(array, newLen);
     }
 
     public void noElements() {
