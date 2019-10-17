@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02312231-450f-45c3-a09a-e46a77ff0abb" name="Default Changelist" comment="" />
+    <list default="true" id="02312231-450f-45c3-a09a-e46a77ff0abb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/edu/ucu/tempseries/TemperatureSeriesAnalysisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/ucu/tempseries/TempSummaryStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/ucu/tempseries/TempSummaryStatistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/ucu/tempseries/TemperatureSeriesAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/edu/ucu/tempseries/TemperatureSeriesAnalysisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/edu/ucu/tempseries/TemperatureSeriesAnalysisTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SHb4BWk1nZnua71JgDR2LazVQA" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ua.edu.ucu.tempseries" />
@@ -131,5 +145,16 @@
       <updated>1571223275881</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
