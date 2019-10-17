@@ -5,9 +5,9 @@ import java.util.InputMismatchException;
 public class TemperatureSeriesAnalysis {
     private static final int MIN_TEMPERATURE = -273;
 
-    private void setTemperatureSeries(double[] temperatureSeries) {
-        this.temperatureSeries = temperatureSeries;
-    }
+//     private void setTemperatureSeries(double[] temperatureSeries) {
+//         this.temperatureSeries = temperatureSeries;
+//     }
 
     private double[] temperatureSeries;
 
