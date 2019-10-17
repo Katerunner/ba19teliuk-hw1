@@ -7,12 +7,14 @@ public class TemperatureSeriesAnalysis {
     private double[] temperatureSeries;
 
     public TemperatureSeriesAnalysis(double[] tempSeries) {
-        for (int i = 0; i < tempSeries.length; i++) {
-            if (tempSeries[i] < MIN_TEMPERATURE) {
+
+        this.temperatureSeries = Arrays.copyOf(tempSeries, tempSeries.length);
+
+        for (int i = 0; i < temperatureSeries.length; i++) {
+            if (temperatureSeries[i] < MIN_TEMPERATURE) {
                 throw new InputMismatchException();
             }
         }
-        this.temperatureSeries = Arrays.copyOf(tempSeries, tempSeries.length);
     }
 
 
