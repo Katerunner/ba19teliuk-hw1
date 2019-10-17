@@ -19,7 +19,7 @@ public class TemperatureSeriesAnalysis {
                 throw new InputMismatchException();
             }
         }
-        temperatureSeries = setTemperatureSeries(Arrays.copyOf(array, newLen);
+        setTemperatureSeries(Arrays.copyOf(array, newLen);
     }
 
 
