@@ -11,7 +11,7 @@ public class TemperatureSeriesAnalysis {
 
     private double[] temperatureSeries;
 
-    public TemperatureSeriesAnalysis(double[] tempSeries) {
+    public TemperatureSeriesAnalysis(double[] tempSeries) throws InputMismatchException {
         int newLen = tempSeries.length;
         double[] array = Arrays.copyOf(tempSeries, newLen);
         for (int i = 0; i < array.length; i++) {
