@@ -1,4 +1,5 @@
 package ua.edu.ucu.tempseries;
+
 import java.util.Arrays;
 import java.util.InputMismatchException;
 
@@ -73,12 +74,14 @@ public class TemperatureSeriesAnalysis {
     public double findTempClosestToValue(double tempValue) {
         noElements();
         double diff = temperatureSeries[0] - tempValue;
+        double value = temperatureSeries[0];
         for (int i = 0; i < temperatureSeries.length; i++) {
             if (Math.abs(temperatureSeries[i] - tempValue) < Math.abs(diff)) {
-                diff = temperatureSeries[i];
+                diff = temperatureSeries[i] - tempValue;
+                value = temperatureSeries[i];
             }
         }
-        return diff;
+        return value;
     }
 
     public double[] findTempsLessThen(double tempValue) {
